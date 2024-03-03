@@ -73,13 +73,13 @@
 				"icon": "terminal-powershell"
 				}
 			},
-			"terminal.integrated.defaultProfile.linux": "pwsh",
-			"terminal.integrated.defaultProfile.windows": "pwsh",
-			"terminal.integrated.defaultProfile.osx": "pwsh",
+			"terminal.integrated.defaultProfile.linux": "fish",
+			"terminal.integrated.defaultProfile.windows": "fish",
+			"terminal.integrated.defaultProfile.osx": "fish",
 			"tasks.statusbar.default.hide": true,
 			"terminal.integrated.tabs.defaultIcon": "terminal-powershell",
 			"terminal.integrated.tabs.defaultColor": "terminal.ansiBlue",
-			"workbench.colorTheme": "GitHub Dark Dimmed",
+			"terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font Mono",
 			"workbench.iconTheme": "material-icon-theme"
 			},
 
@@ -98,10 +98,8 @@
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"ms-toolsai.jupyter",
-				"akamud.vscode-theme-onedark",
 				"ms-vscode-remote.remote-containers",
 				"PKief.material-icon-theme",
-				"GitHub.github-vscode-theme"
 			]
 		}
 	},
