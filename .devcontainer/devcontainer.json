@@ -11,10 +11,10 @@
 		"VARIANT": "1.19-bullseye",
 		// Options:
   
-		"POSH_THEME": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/clean-detailed.omp.json",
+		"POSH_THEME": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/1_shell.omp.json",
   
 		// Override me with your own timezone:
-		"TZ": "America/Moncton",
+		"TZ": "Asia/Singapore",
 		// Use one of the "TZ database name" entries from:
 		// https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   

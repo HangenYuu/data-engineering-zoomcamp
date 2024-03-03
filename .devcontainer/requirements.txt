@@ -5,7 +5,8 @@ prefect-gcp[cloud_storage]==0.2.4
 protobuf
 pyarrow==10.0.1
 pandas-gbq==0.18.1
-psycopg2-binary==2.9.5
+psycopg-binary
+pgcli
 sqlalchemy==1.4.46
 ipykernel
 polars
