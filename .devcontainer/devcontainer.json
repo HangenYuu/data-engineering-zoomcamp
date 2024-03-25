@@ -73,25 +73,18 @@
 				"icon": "terminal-powershell"
 				}
 			},
-			"terminal.integrated.defaultProfile.linux": "fish",
-			"terminal.integrated.defaultProfile.windows": "fish",
-			"terminal.integrated.defaultProfile.osx": "fish",
+			"terminal.integrated.defaultProfile.linux": "bash",
+			"terminal.integrated.defaultProfile.windows": "bash",
+			"terminal.integrated.defaultProfile.osx": "bash",
 			"tasks.statusbar.default.hide": true,
 			"terminal.integrated.tabs.defaultIcon": "terminal-powershell",
 			"terminal.integrated.tabs.defaultColor": "terminal.ansiBlue",
-			"terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font Mono",
 			"workbench.iconTheme": "material-icon-theme"
 			},
 
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"actboy168.tasks",
-				"eamodio.gitlens",
-				"davidanson.vscode-markdownlint",
-				"editorconfig.editorconfig",
 				"esbenp.prettier-vscode",
-				"github.vscode-pull-request-github",
-				"golang.go",
 				"ms-vscode.powershell",
 				"redhat.vscode-yaml",
 				"yzhang.markdown-all-in-one",
@@ -108,7 +101,7 @@
 	// "forwardPorts": [3000],
   
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r .devcontainer/requirements.txt --use-pep517",
+	"postCreateCommand": "pip3 install --user -r .devcontainer/requirements.txt --use-pep517 --no-cache",
   
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode"
